@@ -1,24 +1,29 @@
-# CODER STUDIO IDE
+# **CODER STUDIO IDE**  
+*The Future IDE for Students*
 
-The future IDE for students.
+---
 
-# TECH STACK
+## **Tech Stack**
 
-1. HTML
-2. TAILWIND CSS
-3. VANILLA JS
+- **HTML**
+- **Tailwind CSS**
+- **Vanilla JavaScript**
 
-# FEATURES
+---
 
-1. File Manager
-2. Terminal
-3. Changeable themes
-4. VS Code like UI (Dark themed)
-5. Can make and deploy websites.
+## **Features**
 
-# LANGUAGE SUPPORT
+- Intuitive **File Manager**
+- Built-in **Terminal**
+- Multiple **Changeable Themes**
+- **VS Code-like** UI (Dark Themed)
+- **Website Creation & Deployment** Support
 
-1. HTML + CSS + VANILLA JS
-2. Python
-3. Java
-4. JavaScript
+---
+
+## **Language Support**
+
+- **HTML + CSS + Vanilla JS**
+- **Python**
+- **Java**
+- **JavaScript**
