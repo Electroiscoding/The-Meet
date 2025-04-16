@@ -1,64 +1,61 @@
-# **CODER STUDIO IDE**  
-*The Future IDE for Students*  
+# TheMeet  
+*A Modern Web App for Hosting Seamless Video Meetings*
 
 ---
 
-## 🚀 **Tech Stack**  
+## 🚀 Tech Stack
 
-- **HTML**  
-- **Tailwind CSS**  
-- **Vanilla JavaScript**  
+**Frontend:**  
+- **Vue.js**  
+- Tailwind CSS  
+- Vanilla JavaScript *(for additional interactivity if needed)*
 
----
+**Backend:**  
+- **Firebase** (Authentication, Firestore)
 
-## ⚙️ **Key Features**  
-
-1. **File Manager**  
-   - Manage your projects with ease. Access, organize, and edit your files effortlessly.
-  
-2. **Terminal**  
-   - Built-in terminal to execute commands, run scripts, and interact with your project directly.
-
-3. **Changeable Themes**  
-   - Personalize your IDE with different themes for a comfortable coding experience. Switch between light and dark modes or create your custom themes.
-
-4. **VS Code-like UI**  
-   - Familiar, intuitive, and efficient interface inspired by the popular **VS Code** with a **Dark Theme** for focused coding.
-
-5. **Website Creation & Deployment**  
-   - Code, build, and deploy websites all in one place. From static pages to complex projects, CODER STUDIO IDE provides an easy platform to bring your web ideas to life.
+**Real-Time Communication:**  
+- WebRTC  
+- Socket.io *(if needed for extra signaling, though Firebase can handle real-time updates)*
 
 ---
 
-## 💻 **Language Support**  
+## ⚙️ Key Features
 
-- **HTML + CSS + Vanilla JS**  
-  - Build dynamic web pages, structure content, and add styles with the core front-end technologies.
+1. **Ultra-Fast Real-Time Video Meetings**  
+   - Experience video meetings that are “faster than light” with low latency real-time connections via WebRTC.
 
-- **Python**  
-  - Write, test, and execute Python code with ease, making it perfect for beginners and experienced developers alike.
+2. **Live Chat & Collaboration**  
+   - Integrated chat powered by Firebase for instant messaging during sessions.
 
-- **Java**  
-  - Ideal for Java learners and developers who want to build cross-platform applications. Compile, run, and test directly in the IDE.
+3. **Screen Sharing**  
+   - Seamlessly share your screen for presentations, coding sessions, or just to show off something cool.
 
-- **JavaScript**  
-  - Full support for JavaScript, from browser-based scripting to Node.js applications. Build interactive, dynamic web experiences.
+4. **Custom Themes**  
+   - Toggle between light/dark modes and customize further to match your style.
 
----
-
-## 🎯 **Why Choose CODER STUDIO IDE?**
-
-- **Student-Centric Design:** Created specifically for students to get the most out of their learning experience.
-- **All-in-One Environment:** Code, test, and deploy all within the same interface without needing additional tools or setups.
-- **Modern and Intuitive UI:** Easy to use interface that mimics popular IDEs, perfect for transitioning into professional development.
+5. **Instant, Install-Free Access**  
+   - Everything runs directly in the browser. Join a meeting with a click—no downloads required.
 
 ---
 
-## 🌟 **Get Started Today!**  
+## 📁 Project Structure
 
-Start coding with CODER STUDIO IDE and turn your ideas into real-world projects. Whether you're learning the basics or building your next big project, CODER STUDIO IDE makes the process seamless and fun!
-
----
-
-### **Stay Updated**  
-Follow us on our journey as we continue to enhance CODER STUDIO IDE with new features and improvements. Keep coding, keep creating!
+```bash
+TheMeet/
+├── public/               # Static assets (favicon, images, etc.)
+│   ├── css/              # Tailwind CSS builds and custom styles
+│   ├── js/               # Any vanilla JS utilities
+│   └── assets/           # Logos, icons, etc.
+├── src/                  
+│   ├── components/       # Vue.js single-file components (SFCs)
+│   ├── views/            # Vue.js views for routing
+│   ├── router/           # Vue Router setup
+│   ├── store/            # Vuex (or Pinia) for state management
+│   ├── firebase/         # Firebase configuration and services
+│   └── utils/            # Utility functions and shared logic
+├── test/                 # Unit and integration tests
+├── .env                  # Environment variables (Firebase configs, etc.)
+├── Dockerfile            # Container configuration (if applicable)
+├── package.json          # Project metadata and dependencies
+└── README.md             # This file
+```
